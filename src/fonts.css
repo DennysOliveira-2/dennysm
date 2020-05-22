@@ -1,35 +1,35 @@
 @font-face {
     font-family: "BebasNeue";
-    src: url("/src/fonts/BebasNeue.ttf") format('truetype'), url("BebasNeue.otf");
+    src: url("/fonts/BebasNeue.ttf") format('truetype'), url("BebasNeue.otf");
   }
 
 @font-face {
     font-family: "LongShot";
-    src: url("/src/fonts/Long_Shot.ttf");
+    src: url("/fonts/Long_Shot.ttf");
 }
 
 @font-face {
     font-family: "Creator";
-    src: url("/src/fonts/Creator.otf");
+    src: url("/fonts/Creator.otf");
 }
 
 @font-face {
     font-family: "Aesthetic";
-    src: url("/src/fonts/Aesthetic.otf");
-    src: url("/src/fonts/Aesthetic.ttf") format("truetype");
+    src: url("/fonts/Aesthetic.otf");
+    src: url("/fonts/Aesthetic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Cardinal";
-    src: url("/src/fonts/Cardinal.ttf") format("truetype");
+    src: url("/fonts/Cardinal.ttf") format("truetype");
 }
 
 @font-face {
     font-family: 'Fantasque Sans Mono';
-    src: url('/src/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
-         url('/src/fonts/FantasqueSansMono-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-         url('/src/fonts/FantasqueSansMono-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('/src/fonts/FantasqueSansMono-Regular.svg#FantasqueSansMono-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
+    src: url('/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
+         url('/fonts/FantasqueSansMono-Regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+         url('/fonts/FantasqueSansMono-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/FantasqueSansMono-Regular.svg#FantasqueSansMono-Regular') format('svg'); /* Chrome < 4, Legacy iOS */
     font-weight: 400;
     font-style: normal;
   }
