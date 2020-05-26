@@ -11,12 +11,15 @@ html {
 /* HEADER SETTINGS */
 
 #header {
+    overflow: hidden;
+    
     align-self: center;
     align-content: center;
     text-align: center;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 #header h1 {
@@ -79,6 +82,7 @@ mark.args {
 }
 
 .menu {
+    
     overflow: hidden;
     font-family: Fantasque Sans Mono;
     font-weight: 100;
@@ -88,11 +92,12 @@ mark.args {
 }
 
 .menu ul {
+    
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #000000;
+    background-color: black transparent;
     width: 100%;
     text-align: center;
 
@@ -100,6 +105,7 @@ mark.args {
 }
 
 .menu li {
+    
     display: inline-block;
     height: 29px;
     align-content: center;
@@ -118,8 +124,8 @@ mark.args {
 }
 
 .menu a:hover {
-    color: rgb(177, 177, 177);
-    background-image: -webkit-radial-gradient(center, 50% 30%,rgb(50, 50, 50), black);
+    color: rgb(43, 160, 168);
+   
 
 }
 
@@ -130,7 +136,7 @@ mark.args {
 }
 
 .menu a#active:hover {
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(25, 25, 25) transparent;
     color: white;
     background-image: none;
 }
@@ -212,13 +218,16 @@ mark.args {
 }
 
 .card {
-    background-color: rgb(10, 10, 10);
+    
    
 
-    background-image: -webkit-linear-gradient(left, #080808, #020202, #080808);
-    background-image: -moz-linear-gradient(left, #080808, #020202, #080808);
-    background-image: -ms-linear-gradient(left, #080808, #020202, #080808);
-    background-image: -o-linear-gradient(left, #080808, #020202, #080808);
+    background-image: -webkit-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+    background-image: -moz-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+    background-image: -ms-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+    background-image: -o-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+    opacity: 85%;
+
+    
 
     width: 800px;
     margin-left: 50%;
@@ -229,11 +238,11 @@ mark.args {
 
 @media screen and (max-width: 810px) {
     .card {
-        background-color: rgb(10, 10, 10);
-        background-image: -webkit-linear-gradient(left, #080808, #020202, #080808);
-        background-image: -moz-linear-gradient(left, #080808, #020202, #080808);
-        background-image: -ms-linear-gradient(left, #080808, #020202, #080808);
-        background-image: -o-linear-gradient(left, #080808, #020202, #080808); 
+        background-image: -webkit-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+        background-image: -moz-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+        background-image: -ms-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+        background-image: -o-linear-gradient(left, #101010, #121212, #101010, #121212, #101010);
+        opacity: 85%;
         
         margin-left: 5px;
         margin-right: 5px;
@@ -242,6 +251,7 @@ mark.args {
         transform: translateX(-50%);
     }
 }
+
 
 /* FOOTER */
 
